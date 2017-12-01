@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #DE7A22;
+}
+
+.margin-20 {
+    margin: 60px;
+}
+
+.jumbotron {
+    height: 250px;
+    background-color: #20948B;
+    color: white;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+}
+
+.img {
+    border-radius: 50%;
+    width: 120px;
+    height: auto;
+}
+
+.img-container {
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
